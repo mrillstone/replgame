@@ -32,33 +32,55 @@ location = gets.chomp
 
 case location 
      when "shred street"
-          puts " Let's hit the park,
-           /  |      _O
-           \O/      //\_
-    O_/     |        L
-   -+       |\`    ./ L,   \_O
-    |\      |/o    ~o~o~    /\/
-   .L_L,   ./o            |,L               /\0
-  -~o~o~------------+     o\||     LO_/      /\_
-                    |       \|      I       /\
-                    |       o-    .IVL,    .L_L,
-                    +-------------~o~o~----~o~o~----------" 
+          puts "
+                            /  |      _O 
+                            \\O/      //\_
+                     O_/     |        L
+                    -+       |\\`    ./ L,   \\_O
+                     |\       |/o    ~o~o~    /\\/
+                    .L_L,   ./o            |,L               /\\0        
+                   -~o~o~------------+     o\\||     LO_/      /\\_           
+                                     |       \\|      I       /\\             
+                                     |       o\-    .IVL,    .L_L,           
+                                     +-------------~o~o~----~o~o~---------- "
      when "shred hill"
-          puts "#  Let's go mach five 
-                        __\_O
-                    0\_/|  \
-                     \\_/
-                      0\  "
+          puts " 
+       __\\_O
+   0\\_/| \\\
+
+    \\ _/
+    0\\>
+
+            "
+                    
      when "shred cruiser"
-          puts " Let's hit the beach!
+          puts "
                                 
-                              _\/_ 
-     __,O                     //0\                          
-    / /\__                      |    
-   __/\                         |                            
-  \___/__/                      |                              
-___0__0________________________|_________________________"
+                              _\\/_ 
+     __,O                     //0\\                          
+    / /\\__                      |    
+   __/\\                         |                            
+  \\___/__/                      |                              
+____0__0________________________|_________________________"
+    
+     else 
+        puts "not shredy yet?!"
+        location = gets.chomp
 end 
+
+
+when "
+                                
+                              _\\/_ 
+     __,O                     //0\\                          
+    / /\\__                      |    
+   __/\\                         |                            
+  \\___/__/                      |                              
+____0__0________________________|_________________________"
+
+    puts "you see some girls up ahead, do you skate by or attempt a trick?"
+end
+
 
 # Let's hit the park,
 # #         /  |      _O
