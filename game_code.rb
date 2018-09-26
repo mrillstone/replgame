@@ -1,9 +1,4 @@
 
-
-# create script Variables
-# 
-# monsters = ["blah", "example whatevs", "your momma"]
-
 puts "Let's skate choose your board! Street, Hill, or Cruiser " 
 board = gets.chomp
 
